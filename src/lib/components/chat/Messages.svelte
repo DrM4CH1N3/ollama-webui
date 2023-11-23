@@ -304,7 +304,7 @@
 			<img src="/ollama.png" class=" w-16 invert-[10%] dark:invert-[100%] rounded-full" />
 		</div>
 		<div class=" mt-1 text-2xl text-gray-800 dark:text-gray-100 font-semibold">
-			How can I help you today?
+			Comment puis-je vous aider aujourd'hui ?
 		</div>
 	</div>
 {:else}
