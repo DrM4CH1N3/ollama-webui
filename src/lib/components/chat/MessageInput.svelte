@@ -50,7 +50,7 @@
 
 					// Restart the inactivity timeout
 					timeoutId = setTimeout(() => {
-						console.log('Speech recognition turned off due to inactivity.');
+						console.log('Reconnaissance vocale désactivée en raison d'une inactivité..');
 						speechRecognition.stop();
 					}, inactivityTimeout);
 				};
@@ -72,7 +72,7 @@
 					speechRecognitionListening = false;
 				};
 			} else {
-				toast.error('SpeechRecognition API is not supported in this browser.');
+				toast.error('L'API de reconnaissance vocale n'est pas prise en charge dans ce navigateur.');
 			}
 		}
 	};
